@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="GUIDE" directorySegmentName="seg_0" id="26E16119-D83B-86D0-E20D-7EFE3CBCC159">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>DF44E25A-BFF6-095E-2E0C-02D36859CDF4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>95527C0F-098B-14FE-84FD-1696EDE62245</segment>
+<tableSpace>38E9116C-D4E9-0B01-EA93-6DF48556293E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PGPS" id="130137D1-2DA8-9BAC-00F8-9BB35F6BA562">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PCODE" id="16A92EA6-5D3B-88C4-BF3D-7F2DAEB8D5EC">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PADDR" id="38820C24-C698-D3C2-45BC-5AE77FF1F845">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTYPE" id="8FF2BAA4-153A-F76A-A8C4-D886337DC4C7">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PNAME" id="A584D764-A002-6BE2-D77A-190B46A893A0">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PCOMENT" id="B1C432A4-E9D3-E1D7-8A23-AE4D7D6D8E66">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTEL" id="DB2B766B-869A-89B7-60AB-658D19D5BABC">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PREMARK" id="DBE3005E-D2B2-27B2-44E7-B525F3D86F80">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GUIDE_PK" id="BD6A360D-3600-F7A1-6724-8D6C9E02026D">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:07 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>DF44E25A-BFF6-095E-2E0C-02D36859CDF4</schemaObject>
+<segment>4C8FB2A3-543E-6C81-DFFE-AF23421138DC</segment>
+<tableSpace>38E9116C-D4E9-0B01-EA93-6DF48556293E</tableSpace>
+<indexSegment>4C8FB2A3-543E-6C81-DFFE-AF23421138DC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

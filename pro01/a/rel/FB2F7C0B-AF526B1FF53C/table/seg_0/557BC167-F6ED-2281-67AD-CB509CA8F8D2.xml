@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="557BC167-F6ED-2281-67AD-CB509CA8F8D2" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="QNA">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>QNA</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>4559A8CF-8BF5-A4E8-0252-31643027BE18</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="51EE5BF0-4FCF-76AB-9419-260806980109">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>FE37A780-EBE8-68A9-4EBA-8B0027652B05</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLEVEL" id="74A38AD5-DDBB-AA87-2148-461BD1E37858">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>PLEVEL</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>97796911-3DC7-1146-894E-A3F25242DAE5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PNO" id="3387F066-C0CC-7958-FE16-2756A9E81D75">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>PNO</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>4864EE45-AE04-3585-AEE8-40E3EA45F189</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="4AFFC1E1-73EE-2324-733C-7D9445FFEF5D">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>D1347F70-74BD-B580-6AE9-BF08753148CA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="0FA4E3BB-9645-DB93-C4F1-B3D509EF0CF8">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>AD81D851-623E-339B-984A-41DF08CEBE95</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESDATE" id="D6A409D9-D129-D8CD-4419-3C8165D6ABEF">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>RESDATE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>810EDBD3-FD09-0EB3-A8DA-F119CE462FAC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISITED" id="12B07195-4509-6D9E-26F1-80DD1CFF7CBA">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>VISITED</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>847A10E4-7DF1-61BF-6E2C-7D70C3FAA44C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AID" id="FD24E31A-82BD-1525-A22F-A07B84AACF5E">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>AID</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>5A0D2ECB-A481-324E-0165-DDC750FE1F68</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99635164-BE1B-40A6-4936-1BC99FED807A" referredColumn="036AE728-FBA8-25B9-2EE1-BC34E874C9F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEF8F112-6CD4-06F8-5024-958547851FCE" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="QNA_PK">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008432</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>7AEC8497-C3F9-3A37-9A48-C84AF9DF152C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51EE5BF0-4FCF-76AB-9419-260806980109"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EF8ED0E-311B-6404-F630-8A8BC75ED76B" name="SYS_C008464">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:58:20 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD24E31A-82BD-1525-A22F-A07B84AACF5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

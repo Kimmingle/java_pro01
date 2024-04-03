@@ -1,0 +1,33 @@
+package org.pungnam.ctrl;
+
+import java.io.IOException;
+
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/")   //url 매핑 포트번호 '8091/'하면 이곳으로 들어옴..
+public class Main extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    
+    public Main() {
+        super();
+    }
+
+	
+    //service아니면 doget
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { //    http://127.0.1:8091
+		String name ="돌아온 포켓몬 김민아";
+		
+		ServletContext application = request.getServletContext();
+		String realPath = request.getSession().getServletContext().getRealPath("/");
+		application.setAttribute("realPath", realPath);
+		
+	}
+
+}

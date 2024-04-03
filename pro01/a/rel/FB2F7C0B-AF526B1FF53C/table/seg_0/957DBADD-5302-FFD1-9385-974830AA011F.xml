@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="957DBADD-5302-FFD1-9385-974830AA011F" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="DATA">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>DATA</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="85A8F512-BF84-930F-B03A-22EE422893BD">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>DATA</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="E3C8D773-63F5-2D92-3660-D0DF99783E24">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>DATA</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="E500FB31-B6F8-470F-5D01-00D960036053">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>DATA</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATAFILE" id="B253D396-F0AD-7339-96AA-B8692BF9EBF9">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>DATA</sourceObjSchema>
+<sourceObjName>DATAFILE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:58:20 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>030CBEF8-6F7C-4213-AC46-E3692616774D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESDATE" id="9F99593C-ECF3-CF20-05AF-8DE57C1115EE">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>DATA</sourceObjSchema>
+<sourceObjName>RESDATE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISITED" id="A962EC37-7AE3-4E8E-576F-96130284F4E8">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>DATA</sourceObjSchema>
+<sourceObjName>VISITED</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADE46B24-209A-CB24-1C84-89FDA014D6DF" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="DATA_PK">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008436</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85A8F512-BF84-930F-B03A-22EE422893BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

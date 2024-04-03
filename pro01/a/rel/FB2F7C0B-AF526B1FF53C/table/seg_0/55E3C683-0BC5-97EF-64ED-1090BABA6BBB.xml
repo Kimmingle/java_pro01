@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55E3C683-0BC5-97EF-64ED-1090BABA6BBB" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="NOTICE">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>NOTICE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="42118B30-B52B-573C-A36A-1C90A621B713">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>NOTICE</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="F189B331-43BD-3BC8-5655-04E46D33104C">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>NOTICE</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="70832234-99F8-7D2D-70F8-9AD604808A26">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>NOTICE</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESDATE" id="D60D7DA0-B020-F1A8-BB65-9651016B72C8">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>NOTICE</sourceObjSchema>
+<sourceObjName>RESDATE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISITED" id="6B8A1C05-07BF-D686-56C1-256D57CEECBB">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>NOTICE</sourceObjSchema>
+<sourceObjName>VISITED</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88CEFE11-A0DE-6826-DDD2-55D8CDEDCA20" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="NOTICE_PK">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008428</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42118B30-B52B-573C-A36A-1C90A621B713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

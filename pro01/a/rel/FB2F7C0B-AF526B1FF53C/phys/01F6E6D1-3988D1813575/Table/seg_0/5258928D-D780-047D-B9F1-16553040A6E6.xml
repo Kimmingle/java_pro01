@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TRAFFIC" directorySegmentName="seg_0" id="5258928D-D780-047D-B9F1-16553040A6E6">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>DF44E25A-BFF6-095E-2E0C-02D36859CDF4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>95527C0F-098B-14FE-84FD-1696EDE62245</segment>
+<tableSpace>38E9116C-D4E9-0B01-EA93-6DF48556293E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TNO" id="1F2F99FA-2B15-A4E3-46F4-994170CB19F0">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROUTE" id="2C606A04-6F92-AE8C-BBCC-E4E15D490CA3">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="30574C09-5E2B-C994-6BAA-18A1745618AC">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TTYPE" id="44D4D70D-7C1F-CA74-2FC1-A47D168A33C1">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMENT" id="BEC76B3C-A27F-3E27-9D51-004227AC4697">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRAFFIC_PK" id="4DDD24A0-76C0-B468-2823-A7686348A5EB">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:07 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>DF44E25A-BFF6-095E-2E0C-02D36859CDF4</schemaObject>
+<segment>4C8FB2A3-543E-6C81-DFFE-AF23421138DC</segment>
+<tableSpace>38E9116C-D4E9-0B01-EA93-6DF48556293E</tableSpace>
+<indexSegment>4C8FB2A3-543E-6C81-DFFE-AF23421138DC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

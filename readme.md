@@ -22,7 +22,7 @@
     - Process Pattern : MVC Pattern
     - Database System(DBMS) : Oracle 21C XE
     - Database Design : SQL Developer 23.1.1
-    - Entity Relationship Design : draw.io 20.8.16
+    - Entity Relationship Design : draw.io 20.8.16ㄷ탸
     - Java Database Connector : ojdbc11
     - Application Design : Object aid 1.2.4
     - Back Template Language : Java/Servlet 11
@@ -50,7 +50,8 @@
 ![콘텐츠 분류](./design/문화유적_포스트잇.png)
 
 ## 4-1-3. 서비스 흐름 설계
-집가서 함
+![콘텐츠 분류](./design/서비스흐름설계.png)
+
 
 ## 4-1-4. 서비스 시나리오
 

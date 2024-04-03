@@ -1,4 +1,4 @@
-drop table qna;
+drop table members;
 
 create table traffic(tno int primary key, 
 ttype varchar(20) not null,
@@ -57,7 +57,7 @@ content varchar(50),
 resdate varchar(50),
 visited varchar(50),
 aid varchar(50),
-foreign key (aid) references member(id));
+foreign key (aid) references members(id));
 
 
 select * from member;

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5258928D-D780-047D-B9F1-16553040A6E6" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="TRAFFIC">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TRAFFIC</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TNO" id="1F2F99FA-2B15-A4E3-46F4-994170CB19F0">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>TRAFFIC</sourceObjSchema>
+<sourceObjName>TNO</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TTYPE" id="44D4D70D-7C1F-CA74-2FC1-A47D168A33C1">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>TRAFFIC</sourceObjSchema>
+<sourceObjName>TTYPE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO" id="30574C09-5E2B-C994-6BAA-18A1745618AC">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>TRAFFIC</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 02:03:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<importedID>FF554364-D101-AD16-83A8-74D0B5799BE2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROUTE" id="2C606A04-6F92-AE8C-BBCC-E4E15D490CA3">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>TRAFFIC</sourceObjSchema>
+<sourceObjName>ROUTE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENT" id="BEC76B3C-A27F-3E27-9D51-004227AC4697">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>TRAFFIC</sourceObjSchema>
+<sourceObjName>COMENT</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DDD24A0-76C0-B468-2823-A7686348A5EB" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="TRAFFIC_PK">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008420</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F2F99FA-2B15-A4E3-46F4-994170CB19F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

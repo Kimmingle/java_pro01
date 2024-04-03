@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26E16119-D83B-86D0-E20D-7EFE3CBCC159" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="GUIDE">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>GUIDE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PCODE" id="16A92EA6-5D3B-88C4-BF3D-7F2DAEB8D5EC">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>GUIDE</sourceObjSchema>
+<sourceObjName>PCODE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PNAME" id="A584D764-A002-6BE2-D77A-190B46A893A0">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>GUIDE</sourceObjSchema>
+<sourceObjName>PNAME</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTYPE" id="8FF2BAA4-153A-F76A-A8C4-D886337DC4C7">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>GUIDE</sourceObjSchema>
+<sourceObjName>PTYPE</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PADDR" id="38820C24-C698-D3C2-45BC-5AE77FF1F845">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>GUIDE</sourceObjSchema>
+<sourceObjName>PADDR</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTEL" id="DB2B766B-869A-89B7-60AB-658D19D5BABC">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>GUIDE</sourceObjSchema>
+<sourceObjName>PTEL</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PGPS" id="130137D1-2DA8-9BAC-00F8-9BB35F6BA562">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>GUIDE</sourceObjSchema>
+<sourceObjName>PGPS</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PCOMENT" id="B1C432A4-E9D3-E1D7-8A23-AE4D7D6D8E66">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>GUIDE</sourceObjSchema>
+<sourceObjName>PCOMENT</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREMARK" id="DBE3005E-D2B2-27B2-44E7-B525F3D86F80">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>GUIDE</sourceObjSchema>
+<sourceObjName>PREMARK</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD6A360D-3600-F7A1-6724-8D6C9E02026D" schemaObject="DF44E25A-BFF6-095E-2E0C-02D36859CDF4" name="GUIDE_PK">
+<sourceConnName>DBMS1</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008424</sourceObjName>
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16A92EA6-5D3B-88C4-BF3D-7F2DAEB8D5EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

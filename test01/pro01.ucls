@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="org.pungnam.dto.Guide" project="test01" 
     file="/test01/src/org/pungnam/dto/Guide.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="943" y="821"/>    
+    <position height="-1" width="-1" x="222" y="729"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="org.pungnam.dto.Notice" project="test01" 
     file="/test01/src/org/pungnam/dto/Notice.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="281" y="692"/>    
+    <position height="-1" width="-1" x="949" y="756"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="org.pungnam.dto.Qna" project="test01" file="/test01/src/org/pungnam/dto/Qna.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="590" y="713"/>    
+    <position height="-1" width="-1" x="622" y="757"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -40,6 +40,15 @@
   <class id="5" language="java" name="org.pungnam.dto.Traffic" project="test01" 
     file="/test01/src/org/pungnam/dto/Traffic.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="576" y="212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.pungnam.dto.Data" project="test01" 
+    file="/test01/src/org/pungnam/dto/Data.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="950" y="238"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      

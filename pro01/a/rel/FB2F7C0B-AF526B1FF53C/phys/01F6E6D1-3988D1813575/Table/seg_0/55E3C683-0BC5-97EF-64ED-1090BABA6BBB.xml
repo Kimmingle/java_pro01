@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="NOTICE" directorySegmentName="seg_0" id="55E3C683-0BC5-97EF-64ED-1090BABA6BBB">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>DF44E25A-BFF6-095E-2E0C-02D36859CDF4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>95527C0F-098B-14FE-84FD-1696EDE62245</segment>
+<tableSpace>38E9116C-D4E9-0B01-EA93-6DF48556293E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NO" id="42118B30-B52B-573C-A36A-1C90A621B713">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISITED" id="6B8A1C05-07BF-D686-56C1-256D57CEECBB">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTENT" id="70832234-99F8-7D2D-70F8-9AD604808A26">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESDATE" id="D60D7DA0-B020-F1A8-BB65-9651016B72C8">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="F189B331-43BD-3BC8-5655-04E46D33104C">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:06 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NOTICE_PK" id="88CEFE11-A0DE-6826-DDD2-55D8CDEDCA20">
+<createdBy>user1</createdBy>
+<createdTime>2024-04-02 01:12:07 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>DF44E25A-BFF6-095E-2E0C-02D36859CDF4</schemaObject>
+<segment>4C8FB2A3-543E-6C81-DFFE-AF23421138DC</segment>
+<tableSpace>38E9116C-D4E9-0B01-EA93-6DF48556293E</tableSpace>
+<indexSegment>4C8FB2A3-543E-6C81-DFFE-AF23421138DC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
