@@ -29,10 +29,10 @@
   </filter>
   
   
-  <servlet-mapping>
+  <filter-mapping>
   	<filter-name>SetCharEncoding</filter-name>
   	<url-pattern>/*</url-pattern>
-  </servlet-mapping>
+  </filter-mapping>
  
   
   <servlet-mapping>

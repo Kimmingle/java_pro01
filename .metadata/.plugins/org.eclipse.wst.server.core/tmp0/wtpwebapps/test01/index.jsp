@@ -12,6 +12,6 @@
 <h2>${author }</h2>
 <h2>${realPath }</h2>
 
-<img src="${exo1 }" alt ="">
+<img src="./imges/exo1.jpg" alt ="">
 </body>
 </html>

@@ -32,7 +32,6 @@ INDEX VERSION 1.131+D:\kma\pro01\.metadata\.plugins\org.eclipse.jdt.core
 3864671438.index
 419621210.index
 3977784102.index
-479335008.index
 1281926739.index
 1264139678.index
 1236474321.index
