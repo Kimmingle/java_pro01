@@ -5,7 +5,7 @@
 <c:set var = "ipath" value="<%=request.getContextPath() %>" />
 
 <script src ="${ipath }/js/jquery-3.2.1.min.js"></script>
-<link rel="stylesheet" href="${ipath }/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="${ipath }/css/bootstrap.min.css"/> <!--별도의 css만든 외부스타일 (여기저기 다 불러올 수 있는게 장점 필요하면 link태그로 부르삼)-->
 
 <script src="${ipath }/js/bootstrap.min.js"></script>
 <script src="${ipath }/js/poper.min.js"></script>

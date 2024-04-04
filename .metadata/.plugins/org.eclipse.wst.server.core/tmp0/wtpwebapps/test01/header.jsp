@@ -25,6 +25,14 @@
 		</ul>
 	</nav>
 	<nav id="gnb">
+	<ul class = "main_menu">
 		<h2>메인메뉴</h2>
+		<li><a href="">커뮤니티</a>
+		<ul>
+			<li><a href="${hpath }/notiList.do">커뮤니티</a></li>
+			<li><a href="">자료실</li>
+			<li><a href="">묻고답하기</li>
+		</ul>
+	</ul>
 	</nav>
 </header> 

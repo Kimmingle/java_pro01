@@ -1,0 +1,10 @@
+package org.pungnam.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class NoticeDAO {
+	Connection con = null;
+	PreparedStatement pmtmt = null;
+	ResultSet rs = null;
+}

@@ -1,0 +1,6 @@
+package org.pungnam.dao;
+
+public interface SqlLang {
+	String SELECT_ALL_MEMBER = "select * from member";
+	String SELECT_MEMBER_BYID = "select * from member where id=?";
+}

@@ -22,3 +22,5 @@
 1712121444167	Move 'imges' to 'WebContent'
 1712121463051	Move 'imges' to 'WEB-INF'
 1712122166134	Move 'imges' to 'WebContent'
+1712201180930	Rename type 'NotiList'
+1712210440130	Move 'index.jsp' to 'WEB-INF'

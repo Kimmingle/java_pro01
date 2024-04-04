@@ -1,0 +1,40 @@
+package org.pungnam.ctrl;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet( "/NotiList.do")
+public class NotiList extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+   
+    public NotiList() {
+        super();
+    }
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// a태그로 들어온놈
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+		request.setCharacterEncoding("UTF-8");
+		response.setCharacterEncoding("UTF-8");
+		
+		NoticeDAO dao = new NoticeDAO;  //다오에서 메서드 가져옴
+		
+		//setAttricute써서 뷰로 보낼거임 
+		//어디로 보낼지 목적지 정해줌
+	
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// 폼으로 들어온놈
+		doGet(request, response);
+	}
+
+}

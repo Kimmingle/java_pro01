@@ -30,9 +30,11 @@ public class Main extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { //    http://127.0.1:8091은 저장하면 더 편함
 		String author ="돌아온 포켓몬 김민아";
 		
+		//서블릿 호출하는 구문?
 		ServletContext application = request.getServletContext();
 		String realPath = request.getSession().getServletContext().getRealPath("/");
 		application.setAttribute("realPath", realPath);
+		application.setAttribute("title", "풍남동 소개임");
 		
 		List<Notice> latestNotiList = new ArrayList<>();
 		List<Qna> latestQnaList = new ArrayList<>();
@@ -44,6 +46,7 @@ public class Main extends HttpServlet {
 		request.setAttribute("exo1", "./imges/exo1.jpg");
 		RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/index.jsp");  //목적지 정함
 		view.forward(request, response);
+		
 		
 	}
 }
