@@ -12,3 +12,6 @@
 4월 01, 2024 19:44:20.66 ERROR: No matching issuer found
 4월 01, 2024 19:44:20.66 
 4월 01, 2024 19:44:20.66 
+
+4월 05, 2024 17:34:15.35 NEW SESSION
+4월 05, 2024 17:34:15.35 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.

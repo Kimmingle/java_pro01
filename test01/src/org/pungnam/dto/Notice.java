@@ -4,7 +4,7 @@ public class Notice {
 	private int no;
 	private String title;
 	private String content;
-	private String resdata;
+	private String resdate;
 	private int visited;
 	public int getNo() {
 		return no;
@@ -24,11 +24,11 @@ public class Notice {
 	public void setContent(String content) {
 		this.content = content;
 	}
-	public String getResdata() {
-		return resdata;
+	public String getResdate() {
+		return resdate;
 	}
-	public void setResdata(String resdata) {
-		this.resdata = resdata;
+	public void setResdate(String resdata) {
+		this.resdate = resdata;
 	}
 	public int getVisited() {
 		return visited;
@@ -41,7 +41,7 @@ public class Notice {
 		this.no = no;
 		this.title = title;
 		this.content = content;
-		this.resdata = resdata;
+		this.resdate = resdata;
 		this.visited = visited;
 	}
 	public Notice() {
@@ -49,7 +49,7 @@ public class Notice {
 	}
 	@Override
 	public String toString() {
-		return "Notice [no=" + no + ", title=" + title + ", content=" + content + ", resdata=" + resdata + ", visited="
+		return "Notice [no=" + no + ", title=" + title + ", content=" + content + ", resdata=" + resdate + ", visited="
 				+ visited + "]";
 	}
 	
