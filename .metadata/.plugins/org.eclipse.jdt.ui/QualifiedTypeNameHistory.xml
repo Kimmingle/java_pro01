@@ -10,6 +10,6 @@
     <fullyQualifiedTypeName name="com.azul.crs.client.Result"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="org.pungnam.dto.Notice"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.pungnam.dto.Notice"/>
 </qualifiedTypeNameHistroy>

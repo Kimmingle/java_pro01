@@ -1,9 +1,0 @@
-package org.kh.dto;
-
-public class Traffic {
-	private String ttype;
-	private int no;
-	private String route;
-	private String coment;
-	
-}

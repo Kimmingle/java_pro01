@@ -1,0 +1,9 @@
+package org.pungnam.dao;
+
+import java.util.List;
+
+public class Member {
+	public List<Member> getMemberList(){
+		List<Member> memList = new ArrayList<>();
+	}
+}

@@ -8,11 +8,13 @@ import java.sql.SQLException;
 
 public class MySQLDB implements SqlLang {
 	final static String DRIVER = "org.mysql.jdbc.Driver";
+	//final static String DRIVER = "com.mysql.cj.jdbc.Driver";
 	final static String URL = "jdbc:mysql://localhost:3306/kh"; 
 	final static String USERID = "root";
 	final static String USERPW = "1234";
 	
 	Connection con = null;
+	
 	
 	public Connection Connect() {
 		try {
