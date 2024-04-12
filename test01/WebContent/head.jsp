@@ -2,13 +2,11 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<c:set var = "ipath" value="<%=request.getContextPath() %>" />
-
-<script src ="${ipath }/js/jquery-3.2.1.min.js"></script>
-<link rel="stylesheet" href="${ipath }/css/bootstrap.min.css"/> <!--별도의 css만든 외부스타일 (여기저기 다 불러올 수 있는게 장점 필요하면 link태그로 부르삼)-->
-
+<c:set var="ipath" value="<%=request.getContextPath() %>" />    
+<script src="${ipath }/js/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="${ipath }/css/bootstrap.min.css" />
 <script src="${ipath }/js/bootstrap.min.js"></script>
-<script src="${ipath }/js/poper.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name ="subject" content= "풍남동 소개"/>
 <meta name="description" content="풍남동 설명임 한옥마을 놀루와" />
@@ -21,5 +19,5 @@
     <meta property="og:description" content="풍남동 설명임 한옥마을 놀루와" />
     <meta property="og:images" content="${ipath }/imges/logo.png" />
     <meta property="og:url" content="http://localhost:8091" />
-
-
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR" rel="stylesheet"/>
+<link rel="stylesheet" href="${ipath }/css/common.css" />

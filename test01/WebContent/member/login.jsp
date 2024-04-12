@@ -29,6 +29,7 @@
 		</c:if>
 		<div style="width:1400px; margin:0 auto;">
 			<h3 class="page_title">로그인</h3>
+			<i class="fas fa-user-plus"></i>
 			<form action="${path0 }/LogInPro.do" method="post">
 				<table class="table">
 					<tbody>

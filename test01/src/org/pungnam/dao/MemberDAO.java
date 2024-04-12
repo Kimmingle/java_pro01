@@ -53,7 +53,7 @@ public class MemberDAO {
 				mem.setName(rs.getString("name"));
 				mem.setAge(rs.getString("age"));
 				mem.setEmail(rs.getString("email"));
-				mem.setVisited(rs.getString("visited"));
+				mem.setVisited(rs.getString("visit"));
 			}
 		} catch(Exception e) {
 			e.printStackTrace();
@@ -72,8 +72,9 @@ public class MemberDAO {
 			pstmt.setString(1, mem.getId());
 			pstmt.setString(2, mem.getPw());
 			pstmt.setString(3, mem.getName());
-			pstmt.setString(4, mem.getEmail());
-			pstmt.setString(5, mem.getVisited());
+			pstmt.setString(4, mem.getAge());
+			pstmt.setString(5, mem.getEmail());
+			pstmt.setString(6, mem.getVisited());
 			cnt = pstmt.executeUpdate();
 		} catch(Exception e) {
 			e.printStackTrace();
@@ -117,5 +118,28 @@ public class MemberDAO {
 			oracle.close(con, pstmt);
 		}
 		return cnt;
+	}
+
+
+
+	public boolean idCheck(String id) {
+		boolean ck = false;
+		OracleDB oracle = new OracleDB();
+		try {
+			con = oracle.connect();
+			pstmt = con.prepareStatement(SqlLang.SELECT_ONE_MEMBER);
+			pstmt.setString(1, id);
+			rs = pstmt.executeQuery();
+			if(rs.next()) {
+				ck = true;
+			} else {
+				ck = false;
+			}
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			oracle.close(con, pstmt, rs);
+		}
+		return ck;
 	}
 }
